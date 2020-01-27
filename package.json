@@ -16,7 +16,7 @@
     "concurrently": "5.0.2",
     "electron": "6.0.11",
     "electron": "7.1.10",
-    "electron-builder": "^22.2.0",
+    "electron-builder": "^22.3.2",
     "prettier": "^1.4.4",
     "react-scripts": "3.3.0",
     "wait-on": "4.0.0"
