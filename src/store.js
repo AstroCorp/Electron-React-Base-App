@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-import { connectRouter, routerMiddleware } from 'connected-react-router';
+import { routerMiddleware } from 'connected-react-router';
 import thunk from 'redux-thunk';
 import * as History from 'history';
 import rootReducer from './modules';
@@ -24,7 +24,7 @@ const composedEnhancers = compose(
 );
 
 export default createStore(
-	connectRouter(history)(rootReducer),
+	rootReducer(history),
 	initialState,
 	composedEnhancers
 );

@@ -25,7 +25,7 @@ const mapStateToProps = ({ counter }) => ({
 const mapDispatchToProps = dispatch => bindActionCreators({
 	increment,
 	decrement,
-	changePage: () => push('/about-us')
+	changePage: () => push('/about')
 }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
