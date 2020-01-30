@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "5.1.0",
-    "electron": "7.1.10",
+    "electron": "7.1.11",
     "electron-builder": "^22.3.2",
     "prettier": "^1.4.4",
     "react-scripts": "3.3.0",
