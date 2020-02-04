@@ -3,9 +3,8 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import store, { history } from './store';
-import App from './views/app.js';
-
-import './index.css';
+import App from './views/app';
+import * as serviceWorker from './serviceWorker';
 
 const target = document.querySelector('#root');
 
@@ -17,3 +16,5 @@ render(
 	</Provider>,
 	target
 );
+
+serviceWorker.unregister();

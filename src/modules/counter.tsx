@@ -1,3 +1,5 @@
+import { Dispatch } from 'redux';
+
 export const INCREMENT_REQUESTED = 'counter/INCREMENT_REQUESTED';
 export const INCREMENT = 'counter/INCREMENT';
 export const DECREMENT_REQUESTED = 'counter/DECREMENT_REQUESTED';
@@ -9,7 +11,7 @@ const initialState = {
   isDecrementing: false
 };
 
-export default (state = initialState, action) => {
+export default (state = initialState, action: any) => {
   switch (action.type) {
     case INCREMENT_REQUESTED:
       return {
@@ -43,7 +45,7 @@ export default (state = initialState, action) => {
 }
 
 export const increment = () => {
-  return dispatch => {
+  return (dispatch: Dispatch) => {
     dispatch({
       type: INCREMENT_REQUESTED
     });
@@ -55,7 +57,7 @@ export const increment = () => {
 }
 
 export const decrement = () => {
-  return dispatch => {
+  return (dispatch: Dispatch) => {
     dispatch({
       type: DECREMENT_REQUESTED
     });
