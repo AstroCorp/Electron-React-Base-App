@@ -28,7 +28,7 @@
     "redux": "^4.0.5",
     "redux-axios-middleware": "^4.0.1",
     "tailwindcss": "^1.4.4",
-    "typescript": "~3.8.3",
+    "typescript": "~3.9.3",
     "update-electron-app": "^1.2.0"
   },
   "devDependencies": {
