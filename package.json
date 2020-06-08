@@ -8,7 +8,7 @@
     "@craco/craco": "^5.6.4",
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.1",
-    "@testing-library/user-event": "^10.4.0",
+    "@testing-library/user-event": "^11.2.1",
     "@types/jest": "^25.2.3",
     "@types/node": "^14.0.11",
     "@types/react-dom": "^16.9.8",
@@ -28,7 +28,7 @@
     "redux": "^4.0.5",
     "redux-axios-middleware": "^4.0.1",
     "tailwindcss": "^1.4.6",
-    "typescript": "~3.9.3",
+    "typescript": "~3.9.5",
     "update-electron-app": "^1.2.0"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "electron-builder": "^22.7.0",
     "prettier": "^2.0.5",
     "react-scripts": "3.4.1",
-    "wait-on": "5.0.0"
+    "wait-on": "5.0.1"
   },
   "build": {
     "publish": {
