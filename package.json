@@ -6,7 +6,7 @@
   "private": false,
   "dependencies": {
     "@craco/craco": "^5.6.4",
-    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.2.1",
     "@types/jest": "^26.0.0",
     "@testing-library/user-event": "^11.4.2",
