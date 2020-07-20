@@ -27,7 +27,7 @@
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "redux-axios-middleware": "^4.0.1",
-    "tailwindcss": "^1.4.6",
+    "tailwindcss": "^1.5.1",
     "typescript": "~3.9.6",
     "update-electron-app": "^1.2.0"
   },
