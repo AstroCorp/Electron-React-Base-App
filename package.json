@@ -34,7 +34,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
     "concurrently": "5.2.0",
-    "electron": "9.1.0",
+    "electron": "9.1.2",
     "electron-builder": "^22.7.0",
     "prettier": "^2.0.5",
     "react-scripts": "3.4.1",
