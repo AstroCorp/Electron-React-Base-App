@@ -1710,21 +1710,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
   integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
 
-"@types/node@^12.0.12":
-  version "12.12.50"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
-  integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
-
-"@types/node@^12.0.12":
-  version "12.12.50"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
-  integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
-
-"@types/node@^12.0.12":
-  version "12.12.50"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
-  integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
-
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -4424,10 +4409,10 @@ electron-is-dev@^0.3.0:
   resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-0.3.0.tgz#14e6fda5c68e9e4ecbeff9ccf037cbd7c05c5afe"
   integrity sha1-FOb9pcaOnk7L7/nM8DfL18BcWv4=
 
-electron-log@^4.2.1:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/electron-log/-/electron-log-4.2.2.tgz#b358dc6d1e4772465609ee3d8ad9f594d9e742c8"
-  integrity sha512-lBpLh1Q8qayrTxFIrTPcNjSHsosvUfOYyZ8glhiLcx7zCNPDGuj8+nXlEaaSS6LRiQQbLgLG+wKpuvztNzBIrA==
+electron-log@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/electron-log/-/electron-log-4.2.4.tgz#a13e42a9fc42ca2cc7d2603c3746352efa82112e"
+  integrity sha512-CXbDU+Iwi+TjKzugKZmTRIORIPe3uQRqgChUl19fkW/reFUn5WP7dt+cNGT3bkLV8xfPilpkPFv33HgtmLLewQ==
 
 electron-publish@22.7.0:
   version "22.7.0"
