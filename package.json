@@ -4,49 +4,6 @@
   "author": "AstroCorp",
   "version": "1.0.0",
   "private": false,
-  "dependencies": {
-    "@craco/craco": "^5.6.4",
-    "@testing-library/jest-dom": "^5.10.1",
-    "@testing-library/react": "^10.2.1",
-    "@types/jest": "^26.0.0",
-    "@testing-library/user-event": "^11.4.2",
-    "@types/node": "^14.0.13",
-    "@types/react-dom": "^16.9.8",
-    "@types/react": "^16.9.36",
-    "@types/react-redux": "^7.1.9",
-    "@types/react-router-dom": "^5.1.5",
-    "axios": "^0.19.2",
-    "connected-react-router": "^6.6.1",
-    "cross-env": "7.0.2",
-    "electron-is-dev": "1.2.0",
-    "electron-log": "^4.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5",
-    "redux-axios-middleware": "^4.0.1",
-    "tailwindcss": "^1.4.6",
-    "typescript": "~3.9.5",
-    "update-electron-app": "^1.2.0"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "concurrently": "5.2.0",
-    "electron": "9.0.4",
-    "electron-builder": "^22.7.0",
-    "prettier": "^2.0.5",
-    "react-scripts": "3.4.1",
-    "wait-on": "5.0.1"
-  },
-  "build": {
-    "publish": {
-      "provider": "github"
-    }
-  },
-  "main": "public/electron.js",
-  "homepage": "./",
   "scripts": {
     "react-start": "craco start",
     "react-build": "craco build",
@@ -55,8 +12,52 @@
     "electron-build": "electron-builder",
     "release": "yarn react-build && electron-builder --publish=always",
     "build": "yarn react-build && yarn electron-build",
-    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
+    "clean": "rm -rf node_modules/ && rm yarn.lock && yarn cache clean && yarn install"
   },
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@types/jest": "^26.0.14",
+    "@testing-library/user-event": "^12.1.5",
+    "@types/node": "^14.10.3",
+    "@types/react-dom": "^16.9.8",
+    "@types/react": "^16.9.49",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "axios": "^0.20.0",
+    "connected-react-router": "^6.8.0",
+    "cross-env": "7.0.2",
+    "electron-is-dev": "1.2.0",
+    "electron-log": "^4.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-axios-middleware": "^4.0.1",
+    "tailwindcss": "^1.8.10",
+    "typescript": "^4.0.2",
+    "update-electron-app": "^1.5.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "concurrently": "^5.3.0",
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1",
+    "prettier": "^2.1.2",
+    "react-scripts": "^3.4.3",
+    "wait-on": "^5.2.0"
+  },
+  "build": {
+    "publish": {
+      "provider": "github"
+    }
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
   "browserslist": {
     "production": [
       ">0.2%",
