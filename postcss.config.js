@@ -1,4 +1,4 @@
-const TailwindVueExtractor = content => {
+const TailwindExtractor = content => {
     const contentWithoutStyleBlocks = content.replace(/<style[^]+?<\/style>/gi, "");
     return contentWithoutStyleBlocks.match(/[A-Za-z0-9-_:/]+/g) || [];
 };
@@ -11,7 +11,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     css: [`./src/**/*.@(${extensionsOfCSS.join("|")})`],
     extractors: [
         {
-            extractor: TailwindVueExtractor,
+            extractor: TailwindExtractor,
             extensions: extensionsUsingCSS,
         },
     ],
