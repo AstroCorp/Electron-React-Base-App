@@ -33,7 +33,6 @@
   },
   "devDependencies": {
     "@craco/craco": "^6.0.0",
-    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
