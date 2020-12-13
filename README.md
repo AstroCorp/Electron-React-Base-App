@@ -1,5 +1,5 @@
 # Electron + React - Base App
-> Proyecto base para mis aplicaciones desarrolladas con Electron y React.
+> Base para desarrollar aplicaciones de escritorio usando Electron, React y TypeScript.
 
 
 ## Comandos:
