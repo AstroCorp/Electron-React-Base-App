@@ -41,7 +41,7 @@
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
     "@types/webpack-env": "^1.16.2",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^9.8.8",
     "concurrently": "^6.2.1",
     "cross-env": "7.0.3",
     "electron": "^14.0.0",
