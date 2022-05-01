@@ -44,7 +44,7 @@
     "autoprefixer": "^9.8.6",
     "concurrently": "^6.2.1",
     "cross-env": "7.0.3",
-    "electron": "^14.0.0",
+    "electron": "^18.2.0",
     "electron-builder": "^22.11.7",
     "electron-log": "^4.4.1",
     "prettier": "^2.3.2",
