@@ -46,7 +46,7 @@
     "cross-env": "7.0.3",
     "electron": "^14.0.0",
     "electron-builder": "^22.11.7",
-    "electron-log": "^4.4.1",
+    "electron-log": "^4.4.7",
     "prettier": "^2.3.2",
     "react-scripts": "4.0.3",
     "postcss": "^7.0.36",
